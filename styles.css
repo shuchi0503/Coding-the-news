@@ -1,0 +1,29 @@
+/* .box > * { 
+    max-width: 200px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    background-color: lightblue;
+} */
+.box{
+    border: 1px solid blue;
+    background-color: lightblue;
+    width: 15%;
+    padding: 16px;
+}
+.genre{
+    font-size: large;
+    font-weight: 700;
+}
+.song{
+    font-size: x-large;
+    line-height: 0.25px;
+}
+.release-year{
+    font-size: small;
+    line-height: 1px;
+}
+.album{
+    font-size: medium;
+}
