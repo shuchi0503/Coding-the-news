@@ -10,14 +10,19 @@
     border: 1px solid blue;
     background-color: lightblue;
     width: 15%;
-    padding: 16px;
+    padding: 15px;
+    padding-top: 0%;
+    margin: 20px 16px 20px 16px;
+    /* to make them side by side */
+    float: left;
+
 }
 .genre{
-    font-size: large;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 200;
 }
 .song{
-    font-size: x-large;
+    font-size: 20px;
     line-height: 0.25px;
 }
 .release-year{
@@ -25,5 +30,12 @@
     line-height: 1px;
 }
 .album{
-    font-size: medium;
+    font-size: 20px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    margin-left: 20px;
 }
